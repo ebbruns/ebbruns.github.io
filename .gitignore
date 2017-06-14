@@ -1,2 +1,6 @@
 /.metadata
 /RemoteSystemsTempFiles
+
+# JetBrains Rider
+.idea/
+*.sln.iml

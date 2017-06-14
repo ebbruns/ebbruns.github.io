@@ -1,0 +1,146 @@
+﻿body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: azure;
+}
+
+#CenteredTitle{
+    text-align: center;
+} 
+
+.linkRow{
+    float:left;
+    width: 20%;
+    list-style-type: none;
+    height: 33%;
+}
+
+p{
+    float:left;
+    padding-left: 2.5%;
+    padding-right: 27.5%;
+}
+
+.mediaLinks{
+    margin-top:10%;
+    float:left;
+    width: 33%;
+    list-style-type: none;
+}
+
+.mediaImg{
+    vertical-align:central;
+    width:33%
+}
+
+a{
+    color:#00cc00;
+
+}
+
+a:visited{
+    color:#006600;
+
+}
+
+.headerLinks{
+    width: 95%;
+    height: 25px;
+    border:none;
+    overflow: hidden;
+    padding:0px;
+    margin: 0px;
+}
+
+.longTalk{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.artVid{
+    width: 48%;
+    float:left;
+}
+
+#leftDiv{
+    width:50%;
+    height:70vh;
+    background-color:red;
+    float:left;
+    overflow:hidden;
+}
+
+#leftDiv:hover{
+    background-color:rgb(255, 25, 25);
+}
+
+#rightDiv{
+    width:50%;
+    height:70vh;
+    background-color:green;
+    float:right;
+    overflow:hidden;
+}
+
+#rightDiv:hover{
+    background-color:forestgreen
+}
+
+
+/*This animation code based on a kirupa.com CSS Animation Tutorial*/
+#hexagon {
+  animation: bobble 4s infinite;
+}   
+
+#container {
+      width: 100%;
+      height: 420px;
+      background-color: #EEE;
+      text-align: center;
+    }
+
+@keyframes bobble {
+    0% {
+        transform: translate3d(-500px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    10%{
+        transform: translate3d(-300px, 200px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    20% {
+        transform: translate3d(-100px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    30%{
+        transform: translate3d(100px, 200px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    40% {
+        transform: translate3d(300px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    50%{
+        transform: translate3d(500px, 200px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    60% {
+        transform: translate3d(300px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    70%{
+        transform: translate3d(100px, 200px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    80% {
+        transform: translate3d(-100px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    90%{
+        transform: translate3d(-300px, 200px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        transform: translate3d(-500px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+}

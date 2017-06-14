@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Projects</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+
+</head>
+<body>
+
+    <iframe src="headerLinks.html" scrolling="no" class="headerLinks"></iframe>
+
+
+    <h1 id="CenteredTitle">Code Projects</h1>
+
+    <h3>Full-blown Projects</h3>
+    <ul>
+        <li><a href="https://github.com/ebbruns/Evan-Bruns-Homepage">This Website's Source Code</a></li>
+        <li><a href="https://github.com/ebbruns/golfScorer">GolfScorer Pro</a></li>
+    </ul>
+
+    <h3>JavaScript Toys</h3>
+    <h4>Name Song</h4>
+        <form method="GET" style="margin-left:2.5%; margin-right:27.5%">
+            What is your name: <input type="text" size="20" id="myname" onkeydown="if (event.keyCode == 13)  document.getElementById('mybutton').click()" />
+            <input type="text" style="display: none;" />
+            <button type="button" id="mybutton" style="margin-bottom: 15px">Sing It!</button>
+        </form>
+    <div id="nameSong"> </div>
+
+    <h4>Malleable Opinion</h4>
+    <p>
+        I think that Donald Trump is a <span id="change1"></span>strong candidate. He will handle himself excellently in matters
+        both foreign and domestic<span id="change2"></span>. This is an opportunity for our country to <span id="change3"></span>
+        become great again.
+    </p>
+    <br />
+    <button type="button" id="iDisagree" style="margin-top:15px">I Disagree!</button>
+
+    <!--This animation code based on a kirupa.com CSS Animation Tutorial-->
+
+    <h4>CSS Animation (<a href="https://www.kirupa.com/html5/introduction_css_animations.htm">Tutorial by Kirupa</a>)</h4>
+
+    <div id="container">
+        <img id="hexagon" src="https://www.kirupa.com/images/hexagon.svg" />
+    </div>
+
+    <h4></h4>
+
+    <script src="hello.js"></script>
+
+
+</body>
+</html>

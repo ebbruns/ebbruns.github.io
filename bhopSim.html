@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BunnyHop Simulator 2k16</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <iframe src="headerLinks.html" scrolling="no" class="headerLinks"></iframe>
+    <h1 id="CenteredTitle">Bunny Hop Simulator!</h1>
+    <div class="score"><span id="value">0</span> units/second</div>
+    <div onscroll="scoreScroll()">
+        <div id="leftDiv" onmouseover="scoreHover()"></div>
+        <div id="rightDiv" onmouseover="scoreHover()"></div>
+    </div>
+
+    <script src="bhop.js"></script>
+</body>
+</html>
